@@ -5,7 +5,7 @@
 class Sweather < Formula
   desc "一个非常简单的获取天气客户端\n    ----by saka"
   homepage "https://juejin.im/user/5855ebea8d6d810065a4befa/posts"
-  url "https://raw.githubusercontent.com/rangaofei/SimpleWeather/master/sweather-1.1.0.tar.gz"
+  url "https://raw.githubusercontent.com/rangaofei/SimpleWeather/master/pack/sweather-1.1.0.tar.gz"
   sha256 "09cdb13703e74ab6c5641073f4936088a5db8a7a66c3006bdeaf2504d577935d"
 
   depends_on "cmake" => :build
