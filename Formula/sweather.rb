@@ -6,7 +6,7 @@ class Sweather < Formula
   desc "一个非常简单的获取天气客户端\n    ----by saka"
   homepage "https://juejin.im/user/5855ebea8d6d810065a4befa/posts"
   url "https://raw.githubusercontent.com/rangaofei/SWeather/master/pack/sweahter-1.1.1.tar.gz"
-  sha256 "09cdb13703e74ab6c5641073f4936088a5db8a7a66c3006bdeaf2504d577935d"
+  sha256 "349f3412b4695389e8b18b715cea43a0f486571699c05f51f89beb23f0217f1d"
 
   depends_on "cmake" => :build
 #  depends_on "curl"=>:run
