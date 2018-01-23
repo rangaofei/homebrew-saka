@@ -5,15 +5,15 @@
 class Sweather < Formula
   desc "一个非常简单的获取天气客户端\n    ----by saka"
   homepage "https://juejin.im/user/5855ebea8d6d810065a4befa/posts"
-  url "https://raw.githubusercontent.com/rangaofei/SWeather/master/pack/sweahter-1.1.8.tar.gz"
-  sha256 "d2a4cb5b8808ae37177d77382dbf0ee8856e9816b7b5e1b1842412182e379c98"
+  url "https://raw.githubusercontent.com/rangaofei/SWeather/master/pack/sweahter-1.1.9.tar.gz"
+  sha256 "edc5e6f7676d6f25f2ee28f767c015418dfc3379146affe45474cd966680914f"
 
   depends_on "cmake" => :build
 #  depends_on "curl"=>:run
   def install
     etc.install Dir["src/*"]
     mkdir "build" do
-      system "cmake", "..","-DCMAKE_BUILD_TYPE=Release",*std_cmake_args
+      system "cmake", "..",*std_cmake_args
       system "make"
       system "make", "install" # if this fails, try separate make/make install steps
 
