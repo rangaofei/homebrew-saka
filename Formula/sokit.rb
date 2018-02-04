@@ -3,7 +3,7 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
  class Sokit < Formula
   desc "The origin author and page:\nhttps://github.com/sinpolib/sokit\nfamous tool for debug with socket\n ----by saka"
-  homepage https://juejin.im/post/5a770f17f265da4e80778caa""
+  homepage "https://juejin.im/post/5a770f17f265da4e80778caa"
   url "http://p3lublj5c.bkt.clouddn.com/sokit-1.1.0.tar.gz"
   sha256 "0baf65c42a267f31e9fac83e67af784a312206126d9832e22f299e701ee7707c"
    # depends_on "cmake" => :build
