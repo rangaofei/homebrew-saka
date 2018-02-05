@@ -1,12 +1,13 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook.html
+#Documentation: https://docs.brew.sh/Formula-Cookbook.html
 #                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
  class Sokit < Formula
   desc "The origin author and page:\nhttps://github.com/sinpolib/sokit\nfamous tool for debug with socket\n ----by saka"
-  homepage "https://juejin.im/post/5a770f17f265da4e80778caa"
-  url "http://p3lublj5c.bkt.clouddn.com/sokit-1.1.0.tar.gz"
-  sha256 "0baf65c42a267f31e9fac83e67af784a312206126d9832e22f299e701ee7707c"
-   # depends_on "cmake" => :build
+   homepage "https://juejin.im/post/5a770f17f265da4e80778caa"
+   url "http://p3lublj5c.bkt.clouddn.com/sokit-1.1.1.tar.gz"
+   sha256 "78913c71cd3afdc2ab5d43ed5dbe51abf7d2c7e78959e210766c280b78e82cb8"
+   version "1.1.1"
+   depends_on "qt" => :run
    def install
 	   bin.install "sokit"
    end
