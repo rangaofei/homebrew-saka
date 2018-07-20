@@ -5,8 +5,8 @@
 class Sweather < Formula
   desc "一个非常简单的获取天气客户端\n    ----by saka"
   homepage "https://juejin.im/user/5855ebea8d6d810065a4befa/posts"
-  url "https://raw.githubusercontent.com/rangaofei/SWeather/master/pack/sweather-1.3.0.tar.gz"
-  sha256 "f89a1a4557648df340e86849c40c85cb92647d64fd691720e8d16a1b902d089d"
+  url "https://raw.githubusercontent.com/rangaofei/SWeather/master/pack/sweather-1.3.1.tar.gz"
+  sha256 "7bc17efb08c807e6b810ea83aa339bb3ac29a1d76db7c488e9aa9bbef3d423c6"
 
   depends_on "cmake" => :build
 #  depends_on "curl"=>:run
@@ -25,7 +25,7 @@ class Sweather < Formula
     #
     # This test will fail and we won't accept that! For Homebrew/homebrew-core
     # this will need to be a test that verifies the functionality of the
-    # software. Run the test with `brew test sweather`. Options passed
+    # software. Run the test with `brew test sweatheraaa`. Options passed
     # to `brew install` such as `--HEAD` also need to be provided to `brew test`.
     #
     # The installed folder is not in the path, so use the entire path to any
