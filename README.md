@@ -1,4 +1,4 @@
-#HomebrewInstall
+# HomebrewInstall
 一个简单的在安装时提供选择源的脚本。
 
 基于官方脚本修改:
