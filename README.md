@@ -5,13 +5,13 @@
 
 1.启动iterm终端，输入以下命令:
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/rgf456/HomebrewInstall/master/install.rb)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/rangaofei/HomebrewInstall/master/install.rb)"
 ```
 
 此时会自动执行脚本，输出以下内容：
 
 ```
- ~/ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/rgf456/HomebrewInstall/master/install.rb)"
+ ~/ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/rangaofei/HomebrewInstall/master/install.rb)"
 请输入您要选择的源
   0.HomeBrew官方镜像:
     brew: https://github.com/Homebrew/brew
