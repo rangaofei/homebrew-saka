@@ -1,4 +1,4 @@
- class SSokit < Formula
+ class Ssokit < Formula
   desc "The origin author and page:\nhttps://github.com/sinpolib/sokit\nfamous new tool for debug with socket\n ----by saka"
   homepage "https://juejin.im/post/5a770f17f265da4e80778caa"
   url "https://raw.githubusercontent.com/rangaofei/SSokit/master/pack/SSokit.zip"
